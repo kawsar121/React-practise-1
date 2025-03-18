@@ -18,7 +18,7 @@ function App() {
       
       <h1>Vite + React</h1>
 
-      // akahne fciStudent jeta disi oita holo Fci.jsx name je component nisilam tar parameter,,, ar fcian ta holo fCis[] arry ta ke map kore benge sure fcian niye ashlam jate loop kore akta akta show kore
+       {/* akahne fciStudent jeta disi oita holo Fci.jsx name je component nisilam tar parameter,,, ar fcian ta holo fCis[] arry ta ke map kore benge sure fcian niye ashlam jate loop kore akta akta show kore */}
       {
         fCis.map(fcian => <Fci fciStudent={fcian}></Fci>)
       }
